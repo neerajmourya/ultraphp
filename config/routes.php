@@ -1,5 +1,4 @@
 <?php
-
 $request_uri = $_SERVER['REQUEST_URI'];
 if (defined('SUB_FOLDER')) {
     if (0 == strpos($request_uri, SUB_FOLDER)) {
@@ -9,8 +8,8 @@ if (defined('SUB_FOLDER')) {
 }
 
 $routes = array();
-$routes[''] = array('test','Test');
-//$routes['admin/*'] = array('admin/');
+$routes[''] = array('home','Home');
+$routes['admin/*'] = array('admin/');
 //$routes['user/login/add'] = array('user/LoginController','LoginController');
 //$routes['user/add/*'] = array('user/login');
 //$routes['user/register'] = array('user','LoginRegister');
