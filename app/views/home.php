@@ -1,0 +1,1 @@
+<h4 class="text-center">Congratulations ! Ultraphp is installed and working.</h4>
