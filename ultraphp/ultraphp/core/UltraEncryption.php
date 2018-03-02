@@ -38,16 +38,20 @@ class UltraEncryption {
     const ENCRYPT_METHOD = 'AES-256-CBC';
 
     /**
+     * Encryption key
      * @var string
      */
     private static $key;
     /**
+     * Encryption iv
      * @var string
      */
     private static $iv;
 
     /**
      * Initialise keys
+     * @param string $key
+     * @param string $iv
      */
     public static function initialiseKeys($key, $iv) {
         self::$key = hash('sha256', $key);

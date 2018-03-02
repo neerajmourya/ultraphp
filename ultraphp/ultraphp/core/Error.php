@@ -82,6 +82,11 @@ class Error {
         }
     }
 
+    /**
+     * Returns the exploded message array
+     * @param string $error_message
+     * @return array
+     */
     public static function explodedMessage($error_message) {
         $message_arr = array();
         $message_arr['message'] = self::strbefore($error_message, "Stack trace:");

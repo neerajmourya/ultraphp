@@ -16,6 +16,7 @@ class MessageBox {
     
     /**
      * Construct the MessageBox
+     * @param array $messages Messages array
      */
     public function __construct($messages = array()) {
         $this->messageBox = $messages;
@@ -63,6 +64,10 @@ class MessageBox {
         }
     }    
     
+    /**
+     * Returns the current MessageBox
+     * @return MessageBox
+     */
     public function getBox(){
         return $this->messageBox;
     }

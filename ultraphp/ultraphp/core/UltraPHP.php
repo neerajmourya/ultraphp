@@ -10,6 +10,9 @@ namespace ultraphp\core;
  */
 class UltraPHP {
 
+    /**
+     * Constructs the ultraphp object
+     */
     public function __construct() {
         ob_start();
         session_start();

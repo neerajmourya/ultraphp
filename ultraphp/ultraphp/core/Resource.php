@@ -15,9 +15,9 @@ class Resource {
      * @param multiple $params can send multiple parameters...
      * @return type
      */
-    public static function getValue($resouceName, $key, ...$params){
+    public static function getValue($resourceName, $key, ...$params){
         $lang = Config::get("app", "APP_LANG");
-        return self::getLocaleValue($lang, $resouceName, $key, ...$params);
+        return self::getLocaleValue($lang, $resourceName, $key, ...$params);
     }
 
     /**
@@ -28,9 +28,9 @@ class Resource {
      * @param multiple $params can send multiple parameters...
      * @return type 
      */
-    public static function getLocaleValue($lang, $resouceName, $key, ...$params) {
+    public static function getLocaleValue($lang, $resourceName, $key, ...$params) {
         $dir = dirname(__FILE__, 3);
-        $file = "$dir/app/resources/$lang/$resouceName.php";        
+        $file = "$dir/app/resources/$lang/$resourceName.php";        
         if (file_exists($file)) {
             $resources = include $file;
 //            print_r($resources);

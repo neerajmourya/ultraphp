@@ -20,6 +20,7 @@ class Route {
      * Adds a route with arguments
      * @param string $route
      * @param array $args
+     * @param string $method Route method
      */
     private static function add($route, $args, $method = 'get') {
         //setting method
