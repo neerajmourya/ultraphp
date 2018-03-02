@@ -1,5 +1,6 @@
 <?php
-/* 
+
+/*
  * Copyright (C) 2017 Neeraj Mourya (neerajmorya@gmail.com)
  * Github Profile : https://github.com/neerajmourya
  * Website : http://neerajmourya.tumblr.com
@@ -18,7 +19,5 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-    require_once 'config/config.php';
-    require_once 'core/core.php';
-    require_once 'config/routes.php';  
+include_once './ultraphp/autoload.php';
 ?>
