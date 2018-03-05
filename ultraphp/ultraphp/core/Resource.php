@@ -5,6 +5,8 @@ namespace ultraphp\core;
  * Resource class
  * Manages resources
  * @author Neeraj Mourya <neeraj@egrapes.in>, <neerajmorya@gmail.com>
+ * @copyright (c) 2018, Neeraj Mourya
+ * @license https://opensource.org/licenses/MIT MIT
  * @since 2.0.0
  */
 class Resource {   

@@ -5,6 +5,8 @@ namespace ultraphp\core;
  * MessageBox class
  * Provides functions to store and manage messages
  * @author Neeraj Mourya <neeraj@egrapes.in>, <neerajmorya@gmail.com>
+ * @copyright (c) 2018, Neeraj Mourya
+ * @license https://opensource.org/licenses/MIT MIT
  * @since 2.0.0
  */
 class MessageBox {

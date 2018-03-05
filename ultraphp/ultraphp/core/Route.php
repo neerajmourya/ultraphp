@@ -6,6 +6,8 @@ namespace ultraphp\core;
  * Route class
  * Manages routing of the application
  * @author Neeraj Mourya <neeraj@egrapes.in>, <neerajmorya@gmail.com>
+ * @copyright (c) 2018, Neeraj Mourya
+ * @license https://opensource.org/licenses/MIT MIT
  * @since 2.0.0
  */
 class Route {
