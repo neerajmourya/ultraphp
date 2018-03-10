@@ -73,5 +73,17 @@ class MessageBox {
     public function getBox(){
         return $this->messageBox;
     }
+    
+    /**
+     * Checks if the messagebox is empty
+     * @return boolean
+     */
+    public function isEmpty(){
+        if(empty($this->messageBox)){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
 ?>

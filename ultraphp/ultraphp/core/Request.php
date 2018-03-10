@@ -53,7 +53,7 @@ class Request {
      * @param string $default
      * @return type return value from data array for a key
      */
-    public function input($key, $default) {
+    public function input($key, $default='') {
         if (isset($this->data[$key]) && !empty($this->data[$key])) {
             return $this->data[$key];
         } else {

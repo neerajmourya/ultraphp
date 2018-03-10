@@ -32,10 +32,12 @@ class Controller {
      */
     public function validate($data = array(), $validtionsArr = array(), $attributes = array()) {
         $messageBox = Validator::validate($data, $validtionsArr, $attributes);
-        MessageBoxes::putBox('register-errors', $messageBox);
-        Session::put(Session::MESSAGE_BOXES, MessageBoxes::getBoxes());
-        Request::get()->toSession();
-        Helper::redirectBack();
+        if (!$messageBox->isEmpty()) {
+            MessageBoxes::putBox('register-errors', $messageBox);
+            Session::put(Session::MESSAGE_BOXES, MessageBoxes::getBoxes());
+            Request::get()->toSession();
+            Helper::redirectBack();
+        }
     }
 
 }

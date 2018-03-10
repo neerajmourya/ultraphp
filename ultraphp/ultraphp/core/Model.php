@@ -30,7 +30,7 @@ class Model {
      * @return boolean|object returns object if succeed else false
      */
     public static function insert($args) {
-        return DB::get_query(get_class($this))->insert($args);
+        return DB::get_query(get_called_class())->insert($args);
     }
 
     /**
@@ -50,7 +50,7 @@ class Model {
      * @return boolean/object returns object if succeed else false
      */
     public static function update($args) {
-        return DB::get_query(get_class($this))->update($args);
+        return DB::get_query(get_called_class())->update($args);
     }
     
     /**

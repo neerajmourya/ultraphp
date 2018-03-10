@@ -1,6 +1,8 @@
 <?php
 
 namespace ultraphp\core;
+use PDO;
+use PDOException;
 
 /**
  * UltraDBConnection Class
@@ -31,7 +33,7 @@ class DBManager {
             
         } else {
             try {
-
+                
                 $vendor = Config::get('database', 'DB_VENDOR');
                 switch ($vendor) {
                     case 'mysql':
@@ -59,11 +61,11 @@ class DBManager {
         $vendor = Config::get('database', 'DB_VENDOR');
         switch ($vendor){
             case 'mysql':
-                return new orm\MySqlQuery($model);
+                return new database\MySqlQuery($model);
             case 'oracle':
-                return new orm\Query($model);
+                return new database\Query($model);
             case 'pgsql':
-                return new orm\Query($model);
+                return new database\Query($model);
         }
     }
 }

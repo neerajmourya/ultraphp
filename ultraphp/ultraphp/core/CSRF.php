@@ -28,11 +28,12 @@ class CSRF {
             $curTime = time();
             $validity = Config::get('app', 'CSRF_TOKEN_VALIDITY');
             $pastTime = $curTime - 3600;
-
-            foreach ($tokens as $key => $value) {
-                if ($diff > 0 || $value['time'] < $pastTime) {
-                    $diff--;
-                    unset($tokens[$key]);
+            if (isset($tokens) && !empty($tokens)) {                
+                foreach ($tokens as $key => $value) {
+                    if ($diff > 0 || $value['time'] < $pastTime) {
+                        $diff--;
+                        unset($tokens[$key]);
+                    }
                 }
             }
             Session::put(Session::CSRF_TOKENS, $tokens);

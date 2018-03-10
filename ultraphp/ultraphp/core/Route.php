@@ -147,6 +147,9 @@ class Route {
      * @param array $data
      */
     public static function executeMethod($route, $data = array()) {
+        //Authenticate Session
+        Auth::authenticateSession();
+                
         $request = Request::get();
         $params = ['request' => $request];
         $method = $route['method'];

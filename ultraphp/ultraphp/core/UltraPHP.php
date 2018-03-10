@@ -15,10 +15,7 @@ class UltraPHP {
     /**
      * Constructs the ultraphp object
      */
-    public function __construct() {
-        ob_start();
-        session_start();
-        
+    public function __construct() {       
         //Initialising configurations;
         Config::initialise();
 
@@ -32,6 +29,9 @@ class UltraPHP {
         //Initialsing Encryption
         UltraEncryption::initialiseKeys(Config::get('app', 'ENC_KEY'), Config::get('app', 'ENC_IV'));
 
+        //Setting timezone
+        date_default_timezone_set(Config::get('app', 'TIMEZONE'));
+        
         //Initialising CSRF
         CSRF::initialise();
         

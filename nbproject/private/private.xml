@@ -2,6 +2,35 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/app/views/auth/login.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/Model.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/Auth.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/config/database.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/app/controllers/rest/UserController.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/UltraPHP.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/Request.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/app/models/Role.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/app/controllers/AuthController.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/Validator.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/orm/Query.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/CSRF.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/HttpStatus.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/config/app.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/DBManager.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/config/session.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/Helper.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/MessageBox.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/Session.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/app/models/User.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/Controller.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/app/controllers/UserController.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/app/views/home.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/app/views/users/create.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/app/models/UserRole.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/app/models/RolePermission.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/routes/routes.php</file>
+            <file>file:/opt/lampp/htdocs/ultraidentity2/ultraphp/ultraphp/core/Route.php</file>
+        </group>
     </open-files>
 </project-private>
